@@ -11,6 +11,12 @@ public class Papagaio extends Ave {
         // TODO Auto-generated method stub
         return "Fala muito";
     }
+    
+    @Override
+    public String emitirSom() {
+        // TODO Auto-generated method stub
+        return null;
+    }
 
     public void mensagem(){
         System.out.println("");
